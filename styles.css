@@ -101,7 +101,7 @@ img {
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
   line-height: 1.25;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .w60 {
@@ -164,6 +164,10 @@ img {
 
 .technologyImg {
   margin-top: -5rem;
+}
+
+.forUsers {
+  margin-top: 3rem;
 }
 
 .contact {
@@ -470,6 +474,10 @@ img {
   .hex {
     padding: 8px;
   }
+  .siteInfo img {
+    width: 4rem;
+    height: 4rem;
+  }
 }
 
 @media screen and (max-width: 460px) {
@@ -478,7 +486,7 @@ img {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
   .closeButton {
     right: 5%;
   }
@@ -494,9 +502,6 @@ img {
   .container {
     width: 90%;
   }
-}
-
-@media screen and (max-width: 360px) {
   .cards {
     flex-direction: column;
     gap: 2rem;
